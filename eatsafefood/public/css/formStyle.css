@@ -17,7 +17,6 @@ header {
     position: fixed;
     z-index: 1;
     height: 69px;
-    background-color: #000000;
     border-bottom: 1px solid seashell;
     align-items: center;
 }
@@ -52,11 +51,22 @@ nav a:hover {
 
 /* Main Section */
 .main {
-    padding-top: 69px;
+    padding: 120px 0px 0px 20px ;
     opacity: 0.9;
-    width: 1200px;
+    width: 100%;
     margin: auto;
 }
+
+.top-navbar {
+    position: absolute;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 991px) { 
+    .top-navbar {
+      position: relative;
+    }
+   }
 
 /* Table Section */
 th, td, p{

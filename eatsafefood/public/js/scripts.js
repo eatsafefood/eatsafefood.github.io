@@ -1,3 +1,4 @@
+ 
 // POST method
 function submitUser() {
     console.log("Called submitUser");
